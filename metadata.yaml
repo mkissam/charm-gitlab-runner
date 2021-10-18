@@ -1,0 +1,17 @@
+# Copyright 2021 Márton Kiss
+# See LICENSE file for licensing details.
+name: gitlab-runner-operator
+description: |
+  GitLab Runner is the open source project that is used to
+  run your jobs and send the results back to GitLab. It is used
+  in conjunction with GitLab CI, the open-source continuous
+  integration service included with GitLab, which coordinates
+  the jobs.
+summary: |
+  Summary of GitLab Runner Goes here
+series: [focal]
+requires:
+  gitlab-server:
+    interface: gitlab-server
+    limit: 1
+
